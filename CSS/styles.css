@@ -1,0 +1,140 @@
+/**************TAG SELECTORS**************/
+body {
+  color: #40514E;
+  font-family: 'Merriweather', sans-serif;
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  font-family: 'Brush Script MT';
+}
+
+h2 {
+  font-size: 2rem;
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+  line-height: 2;
+  color: #11999E;
+}
+
+h3 {
+  font-family: 'Roboto', sans-serif;
+  color: #11999E;
+}
+
+hr {
+  border-color: grey;
+  border-width: 5px;
+  border-style: none;
+  border-top-style: dotted;
+  width: 10%;
+  height: 0;
+  margin: 100px auto;
+}
+
+a {
+  color: #40514E;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+/**************CLASS SELECTORS**************/
+.top-container {
+  background-color: #96CEB4;
+  position: relative;
+  padding-top: 100px;
+}
+
+.bottom-container {
+  background-color: #96CEB4;
+  position: relative;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.middle-container {
+  margin: 100px 0;
+}
+
+.nerdy {
+  text-decoration: underline;
+}
+
+.profile {
+  margin-bottom: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  padding-bottom: 20px;
+}
+
+.contact-me {
+  margin: 40px auto 60px;
+}
+
+.cybersec {
+  width: 25%;
+  float: left;
+  padding-right: 30px;
+}
+
+.pcgaming {
+  width: 25%;
+  float: left;
+  padding-right: 30px;
+}
+
+.copyright {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0 0;
+}
+
+.btn {
+  background: #96CEB4;
+  background-image: -webkit-linear-gradient(top, #96CEB4, #649980);
+  background-image: -moz-linear-gradient(top, #96CEB4, #649980);
+  background-image: -ms-linear-gradient(top, #96CEB4, #649980);
+  background-image: -o-linear-gradient(top, #96CEB4, #649980);
+  background-image: linear-gradient(to bottom, #96CEB4, #649980);
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  font-family: Roboto;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #a1ccb8;
+  background-image: -webkit-linear-gradient(top, #a1ccb8, #9eb8ac);
+  background-image: -moz-linear-gradient(top, #a1ccb8, #9eb8ac);
+  background-image: -ms-linear-gradient(top, #a1ccb8, #9eb8ac);
+  background-image: -o-linear-gradient(top, #a1ccb8, #9eb8ac);
+  background-image: linear-gradient(to bottom, #a1ccb8, #9eb8ac);
+  text-decoration: none;
+}
